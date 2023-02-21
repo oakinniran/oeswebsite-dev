@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+  }
+  
+  .home,
+  /*.services,
+  .products,
+  .sign-up {
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+  }
+   */
+  .popup-content {
+    margin: auto;
+    background: rgb(255, 255, 255);
+    width: 30%;
+    padding: 5px;
+  }
+  .popup-content1 {
+    background: rgb(255, 255, 255);
+    width: 10%;
+    padding: 10px;
+    bottom: 10px;
+    margin:20;
+    position:fixed;
+
+
+  }
+
+  .alert {
+    border: 2px solid rgb(16, 88, 55);
+    background: white;
+    font-weight: bold;
+    width: 150px;
+    padding: 10px;
+    bottom: 10px;
+    z-index: 99999;
+    margin:45px;
+    position:fixed;
+
+
+  }
+
+  .popup-arrow {
+    color: rgb(255, 255, 255);
+  }
+  [role='tooltip'].popup-content {
+    width: 200px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 3px;
+  }
+  
+  .popup-overlay {
+    background: rgba(0, 0, 0, 0.5);
+  }
+  [data-popup='tooltip'].popup-overlay {
+    background: transparent;
+  }
+
+  .btncolor{
+    background: green;
+    text-color: white;
+  }
+
+
+  @media only screen and (max-width: 480px) {
+    img {
+      width: 100%;
+    }
+  }
+
+  @media only screen and (max-width: 480px) {
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+
+    }
+
+    slide img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+
+  }
+    .content {
+        position: absolute;
+        top: 20px;
+        left: 3.0rem;
+        opacity: 5;
+        width: 90%;
+        padding: 1rem;
+        background: rgba(0,0,0,0.3);
+        animation: slide-up 1s ease 0.3s;
+        animation-fill-mode: forwards;
+
+    }
+
+
+  }
