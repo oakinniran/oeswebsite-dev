@@ -63,25 +63,25 @@ function Cards() {
               src='https://er.oes.com.ng/img/basic.jpg'
               text='Lessons for Basic Schools students.'
               label='Basic Schools'
-              path='https://applications.oes.com.ng/OESWebApp/getbasicer.do'
+              path='/erb'
             />
             <CardItem
               src='https://er.oes.com.ng/img/secondary1.jpg'
               text='Lessons for Senior Secondary Schools Students.'
               label='Secondary Schools'
-              path='https://applications.oes.com.ng/OESWebApp/getsecondaryer.do'
+              path='/er'
             />
             <CardItem
               src='https://er.oes.com.ng/img/university1.jpg'
               text='Lectures for Unversity Students with Certification'
               label='University'
-              path='https://applications.oes.com.ng/OESWebApp/getuniversityer.do'
+              path='/eru'
             />
             <CardItem
               src='https://er.oes.com.ng/img/developer.jpg'
               text='Lectures for any Training Schools. '
               label='Training/Leadership Schools'
-              path='/https://applications.oes.com.ng/OESWebApp/gettraininger.do'
+              path='/ert'
             />
           </ul>
         </div>

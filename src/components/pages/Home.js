@@ -39,7 +39,7 @@ function Home() {
           </Button>
         
       </Modal>
-      <a aria-label="Chat on WhatsApp" href="https://wa.me/08033905561"> <img alt="Chat on WhatsApp" src="WhatsAppButtonGreenLarge.svg" /></a>
+      <a aria-label="Chat on WhatsApp" href="https://wa.me/2348033905561"> <img alt="Chat on WhatsApp" src="WhatsAppButtonGreenLarge.svg" /></a>
     </>
   )
 }

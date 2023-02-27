@@ -11,6 +11,10 @@ import Feature from './components/pages/Feature';
 import School from './components/pages/School';
 import Parent from './components/pages/Parent';
 import Teacher from './components/pages/Teacher';
+import Er from './components/pages/Er';
+import Ert from './components/pages/Ert';
+import Eru from './components/pages/Eru';
+import Erb from './components/pages/Erb';
 import './index.css'
 
 
@@ -25,6 +29,10 @@ function App() {
      <Route  path='/feature'  element={<Feature />} /> 
      <Route  path='/contact'  element={<Contact />} /> 
      <Route  path='/nopage'  element={<Nopage />} /> 
+     <Route  path='/er'  element={<Er />} /> 
+     <Route  path='/erb'  element={<Erb />} /> 
+     <Route  path='/eru'  element={<Eru />} /> 
+     <Route  path='/ert'  element={<Ert />} /> 
      <Route path='/connectasaschool' element={<School />} />
      <Route path='/connectasastudent' element={<Parent />} />
      <Route path='/connectasaTeacher' element={<Teacher />} />
