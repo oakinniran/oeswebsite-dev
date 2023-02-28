@@ -29,26 +29,26 @@ function Footer() {
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
             <h2>About Us</h2>
-            <Link to='/tutorial'>How it works</Link>
-            <Link to='/testimonials'>Testimonials</Link>
-            <Link to='/careers'>Careers</Link>
+            <Link to='/howtovideo'>How it works</Link>
+            <Link to='/'>Testimonials</Link>
+            <Link to='/'>Careers</Link>
             <Link to='/terms'>Terms of Service</Link>
           </div>
           <div class='footer-link-items'>
             <h2>Contact Us</h2>
             <Link to='/contact'>Contact</Link>
-            <Link to='/support'>Support</Link>
+            <Link to='/contact'>Support</Link>
           </div>
         </div>
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
             <h2>Videos</h2>
-            <Link to='/'>Howto Video</Link>
+            <Link to='/howtovideo'>Howto Video</Link>
           </div>
           <div class='footer-link-items'>
             <h2>Social Media</h2>
             <a href='https://www.instagram.com/hremsoft/'>Instagram</a>
-            <a href='https://web.facebook.com/oesapplication/'>Facebook</a>
+            <a href='https://web.facebook.com/oes4schools/'>Facebook</a>
             <a href='https://www.youtube.com/channel/UCJ0wxCT3C2znT4lJqz-ZFPQ'>Youtube</a>
             <a href='https://www.twitter.com/hremsoft/'>Twitter</a>
           </div>
@@ -65,7 +65,7 @@ function Footer() {
           <div class='social-icons'>
             <a
               class='social-icon-link facebook'
-              href='https://web.facebook.com/oesapplication/'
+              href='https://web.facebook.com/oes4schools/'
               target='_blank'
               aria-label='Facebook'
             >

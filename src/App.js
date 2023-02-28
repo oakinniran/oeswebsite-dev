@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import Nopage from './components/Nopage';
 import { BrowserRouter as Router, Routes, Route,  } from "react-router-dom";
 import Home from './components/pages/Home';
+import Howto from './components/pages/Howto';
 import Contact from './components/pages/Contact';
 import About from './components/pages/About';
 import Feature from './components/pages/Feature';
@@ -33,6 +34,7 @@ function App() {
      <Route  path='/erb'  element={<Erb />} /> 
      <Route  path='/eru'  element={<Eru />} /> 
      <Route  path='/ert'  element={<Ert />} /> 
+     <Route  path='/howtovideo'  element={<Howto />} /> 
      <Route path='/connectasaschool' element={<School />} />
      <Route path='/connectasastudent' element={<Parent />} />
      <Route path='/connectasaTeacher' element={<Teacher />} />
