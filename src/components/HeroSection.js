@@ -5,7 +5,7 @@ import { Button } from './Button';
 
 function HeroSection() {
   let url="https://applications.oes.com.ng/OESWebApp/erregister.do";
-  let url1="https://applications.oes.com.ng/OESWebApp/register.do";
+  let url1="https://applications.oes.com.ng/OESWebApp/createschoolout.do";
   let url2="https://applications.oes.com.ng/OESWebApp/";
 
   return (
@@ -23,14 +23,14 @@ function HeroSection() {
          className='btns' 
          buttonStyle='btn--outline'
          buttonSize='btn--large'>
-           Register a School
+           Register as a Student
          </Button>
-         <Button 
-          url={url}
+       <Button 
+          url={url1}
          className='btns' 
          buttonStyle='btn--outline'
          buttonSize='btn--large'>
-           Subscribe Now
+           Register a School
          </Button>
          <Button 
          url={url2}
