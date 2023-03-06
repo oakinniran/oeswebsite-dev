@@ -49,7 +49,7 @@ function Cards() {
       <div className='cards__container1'>
           <ul className='cards__items1'>
             <IntroCard
-              text='A public digital library of open Educational resources. Explore, create, and collaborate with educators around Africa to improve curriculum and skill acquisation.'
+              text='A public digital library of open Educational resources. Explore, create, and collaborate with educators around Africa to improve curriculum and skill acquisition.'
               label='Luxury'
               path='/feature'
             />
