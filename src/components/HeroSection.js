@@ -6,7 +6,7 @@ import { Button } from './Button';
 function HeroSection() {
   let url="https://applications.oes.com.ng/OESWebApp/register.do";
   let url1="https://applications.oes.com.ng/OESWebApp/createschoolout.do";
-  let url2="https://applications.oes.com.ng/OESWebApp/";
+  let url2="https://applications.oes.com.ng/OESWebApp/erregister.do";
 
   return (
     <>
@@ -23,7 +23,7 @@ function HeroSection() {
          className='btns' 
          buttonStyle='btn--outline'
          buttonSize='btn--large'>
-           Register as a Student - Past Question
+           Register a Student - Tutorial or Lectures
          </Button>
        <Button 
           url={url1}
@@ -37,7 +37,7 @@ function HeroSection() {
          className='btns' 
          buttonStyle='btn--primary'
          buttonSize='btn--large'>
-           Creating Lecture - As a Teacher
+           Register a Teacher - ER Teacher
          </Button>
        </div>
 
