@@ -1,7 +1,6 @@
 //import logo from './logo.svg';
 import React from 'react';
 import './App.css';
-import Navbar from './components/Navbar';
 import Nopage from './components/Nopage';
 import { BrowserRouter as Router, Routes, Route,  } from "react-router-dom";
 import Home from './components/pages/Home';
@@ -17,6 +16,8 @@ import Ert from './components/pages/Ert';
 import Eru from './components/pages/Eru';
 import Erb from './components/pages/Erb';
 import Conditions from './components/pages/Conditions';
+import Privacy from './components/pages/Privacy';
+import Privacy1 from './components/pages/Privacy1';
 import './index.css'
 
 
@@ -36,6 +37,8 @@ function App() {
      <Route  path='/eru'  element={<Eru />} /> 
      <Route  path='/ert'  element={<Ert />} /> 
      <Route  path='/terms'  element={<Conditions />} /> 
+     <Route  path='/privacy'  element={<Privacy />} /> 
+     <Route  path='/privacy1'  element={<Privacy1 />} /> 
      <Route  path='/howtovideo'  element={<Howto />} /> 
      <Route path='/connectasaschool' element={<School />} />
      <Route path='/connectasastudent' element={<Parent />} />
