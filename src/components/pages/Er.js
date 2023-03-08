@@ -45,7 +45,7 @@ function Er() {
          <ERNavbar />
             <ErBanner />
             <ErCards />
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 px-8 py-10">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 px-24 py-10">
                      {showCourse}
           </div>
             <Trusted />

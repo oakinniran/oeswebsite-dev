@@ -16,6 +16,7 @@ import Er from './components/pages/Er';
 import Ert from './components/pages/Ert';
 import Eru from './components/pages/Eru';
 import Erb from './components/pages/Erb';
+import Conditions from './components/pages/Conditions';
 import './index.css'
 
 
@@ -34,6 +35,7 @@ function App() {
      <Route  path='/erb'  element={<Erb />} /> 
      <Route  path='/eru'  element={<Eru />} /> 
      <Route  path='/ert'  element={<Ert />} /> 
+     <Route  path='/terms'  element={<Conditions />} /> 
      <Route  path='/howtovideo'  element={<Howto />} /> 
      <Route path='/connectasaschool' element={<School />} />
      <Route path='/connectasastudent' element={<Parent />} />

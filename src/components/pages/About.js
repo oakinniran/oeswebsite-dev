@@ -1,6 +1,8 @@
 import React from 'react'
 import Footer from '../Footer'
 import Navbar from '../Navbar';
+import Trusted from '../Trusted'
+
 
 function About() {
 
@@ -77,6 +79,8 @@ function About() {
           </ul>
         </div>
       </div> 
+      <Trusted />
+
          <Footer/>
 </>
     )
