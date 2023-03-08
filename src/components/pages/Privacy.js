@@ -1,13 +1,13 @@
 import React from 'react'
 import Footer from '../Footer'
 import Navbar from '../Navbar';
-import STerms from '../STerms';
+import Sterms from '../Sterms';
 
 function Privacy() {
   return (
     <div>
       <Navbar />
-      <STerms />
+      <Sterms />
       <Footer />
     </div>
   )
