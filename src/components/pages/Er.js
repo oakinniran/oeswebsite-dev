@@ -8,26 +8,32 @@ import Trusted from '../Trusted'
 import { CiPhone } from "react-icons/ci";
 import TawkMessengerReact from '@tawk.to/tawk-messenger-react';
 import { Modal, Button } from "react-bootstrap";
+import Axios from "axios";
 
 
 
 function Er() {
+  const [showCourse, setshowCourse] = useState([])
+
     let erdata;
 
     async function getServerLecturesProps(){
         const api_urls = 'https://applications.oes.com.ng/OESWebApp/getallersschoollecture.do';
 
-        const response = await fetch(api_urls);
-        const data = await response.json();
-        console.log(data);
-        erdata = data.map(function(course){
+        //const response = await fetch(api_urls);
+        //const data = await response.json();
+        Axios.get(api_urls).then((res) =>{
+          console.log(res.data);
+          erdata = res.data.map(function(course){
             return(
                 <ECourse src={course.subjectvideo} course={course.subject} title={course.subjectTitle} author={course.teacher} duration="1 Week" Level={course.classLevel} description="test" hashtag={course.teacher} cost={course.cost}  link={course.courseGroupTab}   logo={course.logo} /> 
             )
         })
-        setshowCourse(erdata)
+          setshowCourse(erdata)
+        })
+    
+       // setshowCourse(erdata)
       }
-  const [showCourse, setshowCourse] = useState()
 
   
   const [showModal, setShow] = useState(false);
